@@ -1,0 +1,81 @@
+name: asset_picker
+description: Asset Picker is a package to pick image, video and audio file from android or ios photo libray.
+version: 1.0.0
+homepage: https://github.com/liqping/
+repository: https://github.com/liqping/asset_picker
+
+environment:
+  sdk: '>=2.18.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  asset_photo_view: ^1.0.0
+  path_provider: ^2.0.15
+  crypto: ^3.0.3
+  provider: ^6.0.5
+  video_player: ^2.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.3
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # This section identifies this Flutter project as a plugin project.
+  # The androidPackage and pluginClass identifiers should not ordinarily
+  # be modified. They are used by the tooling to maintain consistency when
+  # adding or updating assets for this project.
+  plugin:
+    platforms:
+      android:
+        package: com.works.asset_picker
+        pluginClass: AssetPickerPlugin
+      ios:
+        pluginClass: AssetPickerPlugin
+
+  # To add assets to your plugin package, add an assets section, like this:
+  assets:
+    - images/scrawl.png
+    - images/txt.png
+    - images/txt_fill.png
+    - images/txt_emp.png
+    - images/mosaic.png
+    - images/md_cancel.png
+    - images/pre_cancel.png
+    - images/cut.png
+    - images/md_mark.png
+    - images/browse_play_big.png
+    - images/music_bg.png
+  #
+  # For details regarding assets in packages, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  #
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # To add custom fonts to your plugin package, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts in packages, see
+  # https://flutter.dev/custom-fonts/#from-packages
