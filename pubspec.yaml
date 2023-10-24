@@ -1,4 +1,4 @@
-name: asset_picker
+name: flutter_asset_picker
 description: Asset Picker is a package to pick image, video and audio file from android or ios photo libray.
 version: 1.0.0
 homepage: https://github.com/liqping/
@@ -6,6 +6,7 @@ repository: https://github.com/liqping/asset_picker
 
 environment:
   sdk: '>=2.18.0 <4.0.0'
+  flutter: ">=3.7.0"
 
 dependencies:
   flutter:

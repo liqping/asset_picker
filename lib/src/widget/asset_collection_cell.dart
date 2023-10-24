@@ -1,4 +1,4 @@
-import 'package:asset_picker/src/widget/pick_base_cell.dart';
+import 'package:flutter_asset_picker/src/widget/pick_base_cell.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

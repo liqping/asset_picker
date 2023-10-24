@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:asset_picker/src/asset_model.dart';
+import 'package:flutter_asset_picker/src/asset_model.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 

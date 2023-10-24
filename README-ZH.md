@@ -1,4 +1,4 @@
-# asset_picker
+# flutter_asset_picker
 
 Language: [English](README.md) | 中文
 

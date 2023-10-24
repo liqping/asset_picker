@@ -1,6 +1,6 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:asset_picker/asset_picker.dart';
+import 'package:flutter_asset_picker/asset_picker.dart';
 
 void main() {
   const MethodChannel channel = MethodChannel('asset_picker');

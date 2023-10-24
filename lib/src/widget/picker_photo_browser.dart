@@ -3,7 +3,7 @@ import 'dart:math';
 import 'dart:ui';
 import 'dart:io';
 
-import 'package:asset_picker/src/widget/asset_cupertino_page_route.dart';
+import 'package:flutter_asset_picker/src/widget/asset_cupertino_page_route.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
